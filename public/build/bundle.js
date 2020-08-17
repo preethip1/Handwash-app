@@ -482,9 +482,9 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "start";
     			attr_dev(div, "class", "secondsLeft");
-    			add_location(div, file$1, 32, 0, 666);
+    			add_location(div, file$1, 32, 0, 667);
     			attr_dev(button, "class", "start svelte-1t10xqb");
-    			add_location(button, file$1, 34, 0, 773);
+    			add_location(button, file$1, 34, 0, 774);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -541,7 +541,7 @@ var app = (function () {
     	return block;
     }
 
-    const totalSeconds = 2;
+    const totalSeconds = 20;
 
     function isRunning() {
     	if (isRunning == 0) {

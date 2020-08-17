@@ -1,6 +1,6 @@
 <script>
   import ProgressBar from "./ProgressBar.svelte";
-  const totalSeconds = 2;
+  const totalSeconds = 20;
   let secondsLeft = totalSeconds;
   $: progress = ((totalSeconds - secondsLeft) * 100) / totalSeconds;
 
